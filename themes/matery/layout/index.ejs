@@ -11,7 +11,12 @@
           <% if (theme.dream.enable) { %> <%- partial('_widget/dream') %> <% }
           %> <% if (theme.music.enable && !theme.music.fixed) { %> <%-
           partial('_widget/music') %> <% } %> <% if (theme.video.enable) { %>
-          <%- partial('_widget/video') %> <% } %>
+          <%- partial('_widget/video') %> <% } %> <% if (theme.recommend.enable)
+          { %>
+          <div id="recommend-sections" class="recommend">
+            <%- partial('_widget/recommend') %>
+          </div>
+          <% } %>
         </div>
       </div>
     </div>
