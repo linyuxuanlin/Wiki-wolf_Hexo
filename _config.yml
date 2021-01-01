@@ -99,8 +99,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme:
-  hueman
-  #matery
+  matery
 
   #landscape
   #hexo-casper
