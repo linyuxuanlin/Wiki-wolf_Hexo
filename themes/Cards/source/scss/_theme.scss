@@ -1,0 +1,35 @@
+/**
+ * blog theme 
+ */
+
+$main-color: #fa5555                                !default;
+$main-color--hover: lighten($main-color, 10%)       !default;
+
+$font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif          !default;
+
+$main-fc: #555                                      !default;
+$main-fs: 14px                                      !default;
+$main-lh: 1.7                                       !default;
+
+
+$title-fc: #484c50                                  !default;
+$item-title: #ffffff								!default;
+$hint-fc: #19abd6                                   !default;
+
+$bgc--main: #f9f9f9                                 !default;
+$bgc--bottom: #2d383e                               !default;
+$bgc--footer: #3f51b5                               !default;
+
+$border-c: #d8e5f3                                  !default;
+
+$transition: .3s                                    !default;
+
+$mq-desktop--wide: 1280px                           !default;
+$mq-desktop: 980px                                  !default;
+$mq-mobile: 736px                                   !default;
+
+$pad: 15px                                          !default;
+
+$z-index--bottom: 1                                 !default;
+$z-index--center: 50                                !default;
+$z-index--top: 100                                  !default;
